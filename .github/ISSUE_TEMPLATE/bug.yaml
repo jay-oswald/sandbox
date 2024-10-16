@@ -1,0 +1,26 @@
+name: Bug Report
+description: Something is not working right
+labels: ["bug"]
+assignees:
+  - jay-oswald
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome!
+        You can also join us in [discord](https://discord.com/invite/2hpHVDmyfw) to get some real-time help
+  - type: textarea
+    attributes:
+      label: What is happening?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What should happen?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Firmware Version?
+      description: This can be found on the about tab
+      
